@@ -216,3 +216,48 @@ a.middle:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
+
+
+/* Contacts section */
+
+#contacts {
+    background-image: url(/assets/img/space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacts {
+    padding: 10% 0 5%;
+}
+
+.contact-form{
+    background: #fff;
+    width: 70%;
+    opacity: 0.8;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image i{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -4%;
+    transform: rotate(-30deg);
+    color: #31465b;
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #53799d;
+    font-weight: 700;
+}
