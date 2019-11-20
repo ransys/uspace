@@ -1,1 +1,287 @@
-<!-- nothing yet -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Uspace</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Mitr:300,400,500,600,700|Prompt:300,400,500,600,700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS elements -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/hover.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/styles/imagehover.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/space shuttle.png" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/55533794b6.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Section 1 -->
+    <section id="title">
+        <div class="container-fluid">
+
+            <!-- Nav bar -->
+            <!-- Code modified from: https://getbootstrap.com/docs/4.3/components/navbar/ -->
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-custom">
+                <a class="navbar-brand" href="index.html"><img src="./assets/img/uspace logo.png" width="180" height=""
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mr-auto l-nav-el">
+                        <li class="nav-item">
+                            <a class="middle nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="middle nav-link" href="programs.html">PROGRAMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="middle nav-link" href="contacts.html">CONTACTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="middle nav-link" href="shop.html">SHOP</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown en-drop">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                en
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">es</a>
+                                <a class="dropdown-item" href="#">ru</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="#"><i class="fas fa-globe-europe"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="middle nav-link" href="#">LOG IN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="middle nav-link" href="#">SIGN UP</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+    <!-- Section 2 -->
+    <!-- SHOP HEADER -->
+    <section id="carousel-section">
+        <div>
+            <div id="space-carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#space-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#space-carousel" data-slide-to="1"></li>
+                    <li data-target="#space-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active shop-carousel">
+                        <img src="./assets/img/astronaut.jpg" class="d-block w-100 shop-header-img" alt="shop header">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Shop Uber to Space</h5>
+                            <p class="shop-heading">EVERYTHING 50% OFF</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item shop-carousel">
+                        <img src="./assets/img/rocket.jpg" class="d-block w-100 shop-header-img" alt="view from space">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Shop Uber Rockets Factory Trips</h5>
+                            <p>Buy our professional factory guides</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item shop-carousel">
+                        <img src="./assets/img/troops.jpg" class="d-block w-100 shop-header-img" alt="human in space">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Get our space toys now!</h5>
+                            <p>Our hand made toys for any occasion!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#space-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#space-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 3 -->
+    <!-- NEW PRODUCTS SECTION -->
+    <section id="new-products">
+        <h2 class="new-products-heading">NEW PRODUCTS IN</h2>
+
+        <div class="row justify-content-md-center justify-content-sm-center">
+
+            <div class="programs-column col-lg-4 col-md-8 col-sm-7 col-xs-7 hvr-shadow-radial">
+                <div class="card hvr-grow">
+                    <img src="./assets/img/mug.jpg" class="card-img-top prod-img" alt="shuttle engine">
+                    <div class="card-body">
+                        <h5 class="card-title shop-title">Uspace mug</h5>
+                        <h3 class="card-text price">11.99$</h3>
+                        <a href="#" class="btn btn-outline-light">Buy mug</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="programs-column col-lg-4 col-md-8 col-sm-7 col-xs-7 hvr-shadow-radial">
+                <div class="card hvr-grow">
+                    <img src="./assets/img/tshirt.jpg" class="card-img-top prod-img" alt="space shuttle">
+                    <div class="card-body">
+                        <h5 class="card-title shop-title">Uspace t-shirt</h5>
+                        <h3 class="card-text price">19.99$</h3>
+                        <a href="#" class="btn btn-outline-light">Buy t-shirt</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn btn-outline-light btn-lg more-prod">MORE PRODUCTS</a>
+        <div class="arrow bounce">
+            <i class="arrow text-center fas fa-chevron-down fa-5x"></i>
+        </div>
+
+
+        <!-- PRODUCTS SECTION -->
+        <div class="row justify-content-md-center justify-content-sm-center products">
+
+            <div class="programs-column col-lg-4 col-md-5 col-sm-8 col-xs-8 hvr-shadow-radial">
+                <div class="card hvr-grow">
+                    <img src="./assets/img/man.jpg" class="card-img-top prod-img" alt="shuttle engine">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-light btn-lg prod-title">MENS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="programs-column col-lg-4 col-md-5 col-sm-8 col-xs-8 hvr-shadow-radial">
+                <div class="card hvr-grow">
+                    <img src="./assets/img/women.jpg" class="card-img-top prod-img" alt="space shuttle">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-light btn-lg prod-title">WOMENS</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="programs-column col-lg-4 col-md-5 col-sm-8 col-xs-8 hvr-shadow-radial">
+                <div class="card hvr-grow">
+                    <img src="./assets/img/accessories.jpg" class="card-img-top prod-img" alt="space shuttle">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-light btn-lg prod-title">ACCESSORIES</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Section 4 -->
+    <!--  -->
+
+
+
+
+    <!-- Section 6 -->
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-6 col-md-12 list-inline text-center">
+                    <a class="navbar-brand" href="index.html"><img src="./assets/img/uspace%20logo.png" width="330"
+                            height="" alt="logo"></a><br>
+                    <button class="download-button btn btn-lg btn-outline-light app" type="button"><i
+                            class="fab fa-apple"></i> App Store</button>
+                    <button class="download-button btn btn-lg btn-outline-light app" type="button"><i
+                            class="fab fa-google-play"></i> Google Play</button>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <ul class="list-inline text-center">
+                        <li> <a class="middle" href="about.html">About us</a>
+                        </li>
+                        <li> <a class="middle" href="programs.html">Programs</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <ul class="list-inline text-center">
+                        <li> <a class="middle" href="contacts.html">Contact us</a>
+                        </li>
+                        <li> <a class="middle" href="shop.html">Shop us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <hr class="hr02">
+                </div>
+
+
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="https://twitter.com/?lang=en-gb" target="_blank"><i
+                                    class="fab fa-twitter fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/" target="_blank"><i
+                                    class="fab fa-youtube fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fab fa-instagram fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i
+                                    class="fab fa-facebook-square fa-2x"></i></a></li>
+                    </ul>
+                    <p>&copy; 2019 Uber to Space corp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    </script>
+</body>
+
+</html>
